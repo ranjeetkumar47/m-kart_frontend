@@ -43,8 +43,8 @@ Follow these steps to set up the project on your local machine:
 1. Clone the repository to your local machine:
 
    ```bash
-   git clone https://github.com/ranjeetkumar47/my-shop_frontend.git
-   cd my-shop_frontend
+   git clone https://github.com/ranjeetkumar47/m-kart_frontend.git
+   cd m-kart_frontend
    ```
 
 2. To Install project dependencies using pnpm:
