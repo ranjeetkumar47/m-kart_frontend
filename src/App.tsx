@@ -3,7 +3,8 @@ import { logger } from './utils/globalLogger'
 import { Helmet } from 'react-helmet'
 import './assets/css/main.css'
 import AppRoutes from './routes/AppRoutes'
-import Navbar from './components/shared/Common/navbar/Navbar'
+import Navbar from './components/navbar/Navbar'
+
 function App() {
   logger.warn('Hello')
   return (
