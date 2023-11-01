@@ -1,36 +1,91 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# MyShop
 
-## Getting Started
+## System Requirements
 
-First, run the development server:
+Before you start working on this project, make sure your development environment meets the following system requirements:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### Software Requirements
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+1. **Node.js**: You'll need Node.js to run JavaScript and pnpm (Node Package Manager) for managing project dependencies.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   - **Minimum Version**: Node.js 14.x or higher
+   - **Installation Guide**: [Node.js Downloads](https://nodejs.org/en/download/)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+2. **pnpm**: pnpm is used for package management in this project.
 
-## Learn More
+   - **Minimum Version**: pnpm 6.x or higher
+   - **Installation Guide**: [pnpm](https://pnpm.io/)
 
-To learn more about Next.js, take a look at the following resources:
+3. **Code Editor**: Choose a code editor for writing and managing your project's code. Recommended options include Visual Studio Code, Sublime Text, and WebStorm.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+   - **Visual Studio Code**: [VS Code](https://code.visualstudio.com/)
+   - **Sublime Text**: [Sublime Text](https://www.sublimetext.com/)
+   - **WebStorm**: [WebStorm](https://www.jetbrains.com/webstorm/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. **Git (Optional)**: If you intend to use version control, you can install Git.
 
-## Deploy on Vercel
+   - **Installation Guide**: [Git Downloads](https://git-scm.com/downloads)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### Hardware Requirements
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+The hardware requirements can vary based on your project's complexity. However, the following are general recommendations:
+
+1. **Processor**: A multi-core processor (e.g., Intel Core i5 or AMD Ryzen) for a smoother development experience.
+
+2. **Memory (RAM)**: 8GB of RAM or more is recommended for larger projects.
+
+3. **Storage**: Ensure sufficient free disk space for Node.js, project files, and dependencies.
+
+## Project Setup
+
+Follow these steps to set up the project on your local machine:
+
+1. Clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/ranjeetkumar47/my-shop_frontend.git
+   cd my-shop_frontend
+   ```
+
+2. To Install project dependencies using pnpm:
+
+   ```bash
+   pnpm install
+   ```
+
+3. Add .env file(if any)
+
+4. To Run or start project
+
+   ```bash
+   pnpm start
+   ```
+
+5. To make build of project
+
+   ```bash
+   pnpm run build
+   ```
+
+6. To run biome linter
+   ```bash
+   pnpm lint
+   ```
+7. To run biome formatter
+
+   ```bash
+   pnpm format
+   ```
+
+8. To Installing Third-Party Dependencies
+   ```bash
+   pnpm install <package-name>
+   ```
+
+## Login Process
+
+we using https://dummyjson.com/docs/auth as backend
+
+You can use this login creds to login in application
+
+Username : kminchelle Password : 0lelplR
